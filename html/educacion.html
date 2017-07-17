@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Roberto Jerez">
+    <meta name="keyworks" content="html5">
+    <meta name="description" content="Evaluacion HTML">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <svg>
+      <image xlink:href="../img/siglas.svg" width="480px" height="280px"></image>
+    </svg>
+  <h1>Hoja de Vida</h1>
+  <h2>Jos&eacute; Roberto Jerez</h2>
+  <h3>Fecha: 05/11/1968</h3>
+  <h3>Lugar de nacimiento: Tegucigalpa, Honduras</h3>
+  <hr/>
+  <a href="html/index.html"target="_blank">Inicio</a>
+  <a href="html/educacion.html"target="_blank">Educaci&oacute;n</a>
+  <a href="html/experiencia.html" target="_blank">Experiencia</a>
+  <hr/>
+  <h2>Educaci&oacute;n</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Año</th>
+        <th>Instituci&oacute;n</th>
+        <th>Lugar</th>
+        <th>¿Culmino?</th>
+      </tr>
+
+    </thead>
+    <tbody>
+      <tr>
+        <td>2002</td>
+        <td>Universidad Nacional</td>
+        <td>Honduras</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2010</td>
+        <td>IBM</td>
+        <td>Honduras</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2013</td>
+        <td>Oracle</td>
+        <td>Guatemala</td>
+        <td>Si</td>
+      </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+<br/>
+  <form name="formEducacion" autocomplete="on">
+    <fieldset>
+      <legend>Agregar Estudios></legend>
+      <p>A&nacute;o
+        <select>
+          <option>2017</option>
+          <option>2016</option>
+          <option>2015</option>
+          <option>2014</option>
+          <option>2013</option>
+          <option>2012</option>
+          <option>2011</option>
+          <option>2010</option>
+        </select>
+        <p>
+        <label for="institu">Instituci&oacute;n</label>
+        <input type="text" name="institucion" required placeholder="Nombre de la Instituci&oacute;n">
+      </p>
+      <p>
+        <label for="lugar">Lugar</label><br>
+        <textarea type="textr" name="lugar" rows="4" cols="80" placeholder="texto"></textarea>
+      </p>
+        <label for="culmi">¿Culmino?</label>
+        <input type="radio" name="culmi"> Si
+        <input type="radio" name="culmi"> No
+      </p>
+      <p>
+        <label for="enviar"></label>
+        <input type="submit" name="enviar" value="Enviar">
+      </p>
+
+    </fieldset>
+
+  </form>
+</body>
+<footer>
+  <br>
+  <h3>Informaci&oacute;n de contacto</h3>
+  <h4>email: roberto_jerez@msn.com, Tel: 504 9745-6539, Tegucigalpa Honduras</h3>
+</footer>
+</html>
